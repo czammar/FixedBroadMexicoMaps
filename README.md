@@ -1,9 +1,7 @@
 # Penetration of Fixed Broadband for high speed technologies
 A map to analize [fixed broadband data for Mexico](https://github.com/czammar/BandaAnchaFija) considering penetration for technologies that can bring high speed services (optical fiber and coaxial cable) at municipal level for Mexico at June 2019.
 
-It is based on an OCDE metric to quantify penetration within a zone (http://www.oecd.org/internet/broadband/broadband-faqs.htm](http://www.oecd.org/internet/broadband/broadband-faqs.htm):
-
-$$Penetration Fixed Broadband per Habitans = \frac{\# Access }{\# Habitants} \times 100$$
+It is based on an OCDE metric to quantify penetration within a zone (http://www.oecd.org/internet/broadband/broadband-faqs.htm](http://www.oecd.org/internet/broadband/broadband-faqs.htm), considering the number of Fixed broadband subscriptions per 100 inhabitants
 
 **Notes:**
 
@@ -46,7 +44,32 @@ Maps-FixedBroadBand.R
 
 An interactive map named as [**fixed-broadband-map-mexico.html**](https://rpubs.com/czammar/fixedbroadbandMX) is generated in current directory.
 
-## 2. Highlights
+## 2. Remarks
 
 * Within OCDE Countries, Fixed broadband subscriptions per 100 inhabitants (considering all posible technologies for local loop) was close to 30.9 (http://www.oecd.org/sti/broadband/1.1-TotalBBSubs-bars-2019-12.xls), at December 2018. In case of Mexico, Fixed broadband subscriptions per 100 inhabitants was close to 14.8.
-* 
+
+* Eventually we can update this map, but new demographic data should be available.
+
+* OCDE gave following note from it's penetration metric (http://www.oecd.org/digital/broadband/broadband-faqs.htm):
+
+  * ### Why does the OECD express subscribers "per 100 inhabitants" instead of as a percentage of households?
+
+    OECD subscriber data contains the total number of business and  residential subscriber lines in a country. Normalising the number of  broadband subscribers by the population provides an idea of relative  penetration of subscriber lines. Expressing the number of subscriptions  in terms of households would be misleading because some connections are  to businesses. Normalising subscribers as a percentage of total  households would consistently over-estimate broadband penetration.
+
+------
+
+**Center of Mexico**
+
+![center](./images/center.png)
+
+
+
+**Peninsula de Yucatán**
+
+![peninsula](./images/peninsula.png)
+
+
+
+**Center-South of Mexico**
+
+![sur](./images/sur.png)
