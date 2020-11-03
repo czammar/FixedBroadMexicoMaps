@@ -21,8 +21,8 @@ limitations.
 
 ## 1. Instructions
 
-Data gathering and wrangling and map generation are base mostly on Bash and
-Rscripts. Please do as follows:
+Data gathering, wrangling and map generation are base mostly on Bash and
+R scripts. Please do as follows:
 
 ## 1.1 Data Sources
 
