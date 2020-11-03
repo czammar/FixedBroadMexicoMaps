@@ -2,7 +2,7 @@
 PenetrationBAF_Habitantes <- df
 
 # Crea nombres de columnas value y region que se necesita para usan alimentar la función mxmunicipio_choropleth
-PenetrationBAF_Habitantes$value <- PenetrationBAF_Habitantes$PEN_BAF_HOGS # Valores para escala de colores
+PenetrationBAF_Habitantes$value <- PenetrationBAF_Habitantes$PEN_BAF_HABS # Valores para escala de colores
 PenetrationBAF_Habitantes$region <- PenetrationBAF_Habitantes$K_ENTIDAD_MUNICIPIO # Llave principal de municipios de INEGI
 
 # Definicion de paleta de colores a partir de valores de penetracion
@@ -21,7 +21,7 @@ mymap<-mxmunicipio_leaflet(PenetrationBAF_Habitantes,
   addLegend(position = "topright", 
             pal = pal, 
             values = PenetrationBAF_Habitantes$value,
-            title = "Accesos de cable coaxial y fibra <br/>  óptica por cada 100 hogares",
+            title = "Accesos de cable coaxial y fibra <br/>  óptica por cada 100 habitantes",
             labFormat = labelFormat(suffix = "",
                                     transform = function(x) {x})) %>%
   addProviderTiles("CartoDB.Positron")
