@@ -1,7 +1,7 @@
 # Penetration of Fixed Broadband for high speed technologies
 A map to analize [fixed broadband data for Mexico](https://github.com/czammar/BandaAnchaFija) considering penetration for technologies that can bring high speed services (optical fiber and coaxial cable) at municipal level for Mexico at June 2019.
 
-It is based on an OCDE metric to quantify penetration within a zone (http://www.oecd.org/internet/broadband/broadband-faqs.htm](http://www.oecd.org/internet/broadband/broadband-faqs.htm), considering the number of Fixed broadband subscriptions per 100 inhabitants
+It is based on an OCDE metric to quantify penetration within a zone (http://www.oecd.org/internet/broadband/broadband-faqs.htm), considering the number of Fixed broadband subscriptions per 100 inhabitants
 
 **Notes:**
 
