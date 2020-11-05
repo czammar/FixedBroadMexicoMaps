@@ -14,7 +14,7 @@ It is based on an OCDE metric to quantify penetration within a zone
  local loop deployed in Mexico until June 2019, as a proxy the ones that can
 provide high speed to end users.
 * There is no public data for VDSL access, and also not all Mexican operators
-that have deployed coaxial cable use DOCSIS 3.0 or grater, so comparative has
+that have deployed coaxial cable use DOCISIS 3.0 or greater, so comparative has
 limitations.
 * Demographical data is limited to census exercises of 2015, due to COVID 2019.
 * We use R library *mxmaps* (https://www.diegovalle.net/mxmaps/).
